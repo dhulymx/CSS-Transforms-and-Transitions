@@ -1,0 +1,44 @@
+@media screen and (max-width: 768px) {
+    /*Header Sectionm*/
+    header {
+        background-image: url(../assets/mobile-background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+    }
+
+    nav {
+        display: none
+    }
+
+    .ham-menu {
+        display: inline;
+    }
+
+    /*Main Section*/
+    .main-title > h2,
+    .main-title > h3 {
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .main-info {
+        display: block;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    main {
+        text-align: left;
+    }
+
+    .main-title > button {
+        margin: 20px;
+    }
+
+    /*Footer Section*/
+    footer {
+        display: block;
+        text-align: center;
+    }
+}

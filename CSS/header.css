@@ -1,0 +1,87 @@
+header {
+    color: #FFF;
+    background-image: url(../assets/header-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: 100vw;
+    height: 95vh;
+    max-width: 100%;
+}
+
+/*Navigation Menu*/
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sitename {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+nav {
+    flex: 1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.2em;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+ul li {
+    margin: 0 10px;
+}
+
+.header-container a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.header-container a:hover {
+    border-bottom: 1px solid;
+}
+
+.ham-menu {
+    width: 20px;
+    height: 20px;
+    align-self: center;
+    padding-right: 20px;
+    padding-top: 20px;
+    display: none;
+}
+/*Navigation Menu End*/
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+}
+
+header > h1 {
+    font-family: 'Oswald';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+}
+
+header > h2 {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+}

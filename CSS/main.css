@@ -1,0 +1,55 @@
+main {
+    background-color: #EEE;
+    min-height: 80vh;
+    text-align: center;
+}
+
+.main-title > h2 {
+    color: #464547;
+    margin: 0;
+    padding-top: 5%;
+    font-family: 'Oswald';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+}
+
+.main-title > h3 {
+    color: #666;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.main-info {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    color: #000;
+    padding: 0 100px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.main-info > p {
+    text-align: left;
+    flex: 1;
+}
+
+.main-title > button {
+    color: #FFF;
+    background-color: #55C2D8;
+    border-radius: 18px;
+    border-style: hidden;
+    padding: 6px 18px;
+    margin-top: 20px;
+    font-family: 'Oswald';
+    font-size: 14px;   
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}

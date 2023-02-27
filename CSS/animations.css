@@ -1,0 +1,30 @@
+.company-logo {
+    transform: rotateY(0deg) scale(1);
+    transition: all .5s ease;
+    transform-origin: bottom;
+}
+
+.company-logo:hover {
+    transform: rotateY(180deg) scale(1.8);
+}
+
+.info-button {
+    transform: rotate(0deg);
+    transition: all 1s ease-out;
+    transform-origin: top left;
+}
+
+.info-button:hover {
+    transform: rotate(15deg);
+}
+
+.video-button {
+    transform: perspective(600px) translateZ(0px);
+    transition: all .5s linear;
+}
+
+.video-button:hover {
+    transform: perspective(600px) translateZ(-30px);
+    background-color: #FFF;
+    color: #39C2D7;
+}

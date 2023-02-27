@@ -1,0 +1,46 @@
+
+aside {
+    background-image: linear-gradient(
+        to right,
+        rgba(234, 219, 203, 0.2),
+        rgba(234, 219, 203, 0.2)),
+        url(../assets/aside-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    min-height: 80vh;
+    text-align: center;
+}
+
+aside > h2 {
+    color: #FFF;
+    margin: 0;
+    padding-top: 2rem;
+    font-family: 'Oswald';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+}
+
+aside > button {
+    background-color: #39C2D7;
+    color: #FFF;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border-style: hidden;
+    padding: 10px 20px;
+    font-size: 4em;
+
+}
+
+aside > h3 {
+    color: #FFF;
+    margin: 0;
+    padding: 0 2rem;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+}
